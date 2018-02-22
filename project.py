@@ -5,7 +5,7 @@ number = 1
 def undeclared (a, b):
     c = a +b
 
-pritt number
+prittt number
 
 
 
