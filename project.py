@@ -1,11 +1,11 @@
-number
+number = 1
 
 #undeclared (a, b)
 
 def undeclared (a, b):
     c = a +b
 
-pint numbers
+print number
 
 
 
