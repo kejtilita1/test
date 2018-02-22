@@ -1,4 +1,4 @@
-number =1
+number
 
 #undeclared (a, b)
 
