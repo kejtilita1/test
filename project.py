@@ -6,7 +6,7 @@ def undeclared (a, b):
     c = a +b
     return c
 
-print numberss
+print numbers
 
 
 
