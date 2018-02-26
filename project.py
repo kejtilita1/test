@@ -4,8 +4,9 @@ number = 11
 
 def undeclared (a, b):
     c = a +b
+    return c
 
-prittt number
+print numbers
 
 
 
