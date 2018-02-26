@@ -355,3 +355,8 @@ int-import-graph=
 # Exceptions that will emit a warning when being caught. Defaults to
 # "Exception"
 overgeneral-exceptions=Exception
+
+[pre-commit-hook]
+command=custom_pylint
+params=--rcfile=/path/to/another/pylint.rc
+limit=8.0
