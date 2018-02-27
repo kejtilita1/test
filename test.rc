@@ -358,5 +358,5 @@ overgeneral-exceptions=Exception
 
 [pre-commit-hook]
 command=custom_pylint
-params=--rcfile=/path/to/another/pylint.rc
+params=--rcfile=C:\test\test.rc
 limit=8.0
