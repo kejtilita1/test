@@ -1,9 +1,8 @@
 [MASTER]
 
-
 optimize-ast=
 
 [pre-commit-hook]
 command=custom_pylint
-params=--rcfile=C:/test/pylint.rc
+params=--rcfile=C:/test/pylint.pylintrc
 limit=8.0
