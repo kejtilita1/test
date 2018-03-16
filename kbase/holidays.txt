@@ -1,0 +1,4 @@
+# Lines starting with a pound are ignored
+# Format:
+# month ` day ` year ` Holiday ` Description
+8`26`2008`TWIDL Repo Day`Today in 2008, the first TWIDL repository was created. The only files that share lineage with that repo today are identify.py and ephraim.py.
