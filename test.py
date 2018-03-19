@@ -92,11 +92,12 @@ def create_revision(repodir):
     f.seek(0)
     f.write(' '.join(firstLine) + '\n')
     f.close()
+    print "run complete: moving on to commit"
 """made this to get the commit message"""
 def commit_msg(repodir):
     f = open(repodir + r'\kbase\release.txt', 'r+')
     firstLine = f.readline().strip().split()
-    firstLine[2] = version
+    version = firstLine[2]
     print version
     commitMsg= "Update Test environment with TWIDL " + version
     return commitMsg
@@ -108,7 +109,7 @@ def commit_msg(repodir):
 """Calling Nate's code"""
 #a = autocodepromote
 a = AutoCodePromote(repodir, disable_lfs=True, promote_retry_count=3)
-commit_hash = a.promote_change(create_revision, "klita_test", commit_msg(repodir), tmp_banch_prefix="tmp", ff_ancestor_branch='master')
+commit_hash = a.promote_change(create_revision(repodir), "klita_test", commit_msg(repodir), tmp_banch_prefix="tmp", ff_ancestor_branch='master')
 
 
 """"Adapted to git fron hg"""
