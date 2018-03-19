@@ -1,4 +1,4 @@
-TWIDL Trunk 3.49.05 [18WW12]
+TWIDL Trunk 3.49.07 [18WW12]
 
 Release Notes :
 https://nsg-jira.intel.com/issues/?filter=45584
